@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 
 headers = {'X-Auth-Token': 'YOUR_API_KEY'}
-TOKEN = 'MTA3MDY0NjY0NjExNjk5NTA5Mg.GA6P9u.TcCcTqdHHo96VhKqwDpWtRcvdf78Jov1nz1FLs'
+TOKEN = 'MTA3MDY0NjY0NjExNjk5NTA5Mg.GJUV8d.b3Gjloy-DffMOW67w3ce_J2Vn1pSUADJrUguAw'
 intents = discord.Intents.all()
 description = '''let's see my option.'''
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
